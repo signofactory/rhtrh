@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Display Webcam Stream</title>
+  </head>
+
+  <body>
+    <video autoplay></video>
+
+    <script>
+      const constraints = {
+        video: true,
+      };
+
+      const video = document.querySelector("video");
+
+      navigator.mediaDevices.getUserMedia(constraints).then((stream) => {
+        video.srcObject = stream;
+      });
+    </script>
+    <script src="./dist/js/bundle.js"></script>
+  </body>
+</html>

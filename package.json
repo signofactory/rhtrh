@@ -1,0 +1,30 @@
+{
+  "name": "RHTRH",
+  "description": "Raise your hand on Google Meet by raising your hand in real life",
+  "version": "0.1",
+  "license": "ISC",
+  "scripts": {
+    "build": "./scripts/build.sh",
+    "watch": "./scripts/watch.sh"
+  },
+  "author": "Signofactory",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-transform-classes": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
+  },
+  "dependencies": {
+    "@babel/runtime-corejs3": "^7.10.5",
+    "@tensorflow-models/handpose": "^0.0.6",
+    "@tensorflow/tfjs-backend-cpu": "^2.8.2",
+    "@tensorflow/tfjs-backend-webgl": "^2.8.2",
+    "@tensorflow/tfjs-converter": "^2.8.2",
+    "@tensorflow/tfjs-core": "^2.8.2",
+    "fingerpose": "^0.0.2"
+  }
+}
