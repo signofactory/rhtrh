@@ -1,6 +1,7 @@
 
 echo 'Removing previous build...'
 rm -rf dist/*
+rm export.zip
 
 echo 'Recreating folders...'
 mkdir -p dist
@@ -21,6 +22,9 @@ cp -r manifest.json dist/
 
 echo 'Bundling script...'
 webpack --config webpack.config.js
+
+echo 'Creating zip folder...'
+zip -r export.zip dist
 
 echo 'Cleaning up...'
 
