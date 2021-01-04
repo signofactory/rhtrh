@@ -1,7 +1,7 @@
 {
   "name": "RHTRH",
   "description": "Raise your hand on Google Meet by raising your hand in real life",
-  "version": "0.1",
+  "version": "0.2",
   "license": "ISC",
   "scripts": {
     "build": "./scripts/build.sh",
