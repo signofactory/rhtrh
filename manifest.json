@@ -12,6 +12,7 @@
     {
       "run_at": "document_end",
       "matches": ["*://meet.google.com/*"],
+      "exclude_matches": ["*://meet.google.com/"],
       "js": ["js/main.js"],
       "all_frames": false
     }
