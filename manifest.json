@@ -2,7 +2,7 @@
   "name": "RHTH – Raise Hand To Raise Hand",
   "description": "",
   "version": "0.2",
-  "permissions": ["declarativeContent", "activeTab", "storage"],
+  "permissions": ["declarativeContent"],
   "background": {
     "scripts": ["js/background.js"],
     "persistent": false
