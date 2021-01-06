@@ -1,7 +1,7 @@
 {
-  "name": "RHTH – Raise Hand To Raise Hand",
-  "description": "",
-  "version": "0.3",
+  "name": "RHTRH – Raise Hand To Raise Hand",
+  "description": "Raise your hand on Google Meet by raising your hand in real life",
+  "version": "0.3.1",
   "permissions": ["declarativeContent"],
   "background": {
     "scripts": ["js/background.js"],
