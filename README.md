@@ -92,6 +92,7 @@ Meeting mode is designed for people who want to keep taking their notes while wa
 
 - The extension currently slows down significantly the action of entering a meeting (due to the predictive model being loaded while Google Meet is also doing its stuff). Once the model is loaded and our optimizations kick-in, performance should go back to normal — we are working on a solution to lazy load the model and smoothen this behaviour
 - The extension is enabled on all meetings, even when there is no "Raise hand" button. We'll fix it soon.
+- The extension doesn't work on M1 powered MacBooks / Mac Minis (due to TensorFlow's CPU backend compatibility issues ATM)
 
 ## Authors
 
