@@ -11,7 +11,7 @@ RHTRH is a Google Chrome extension to add real-time hand raise tracking to Googl
   </tr>
 </table>
 
-You can download the latest version of the extension for free from the [Chrome Extensions Web Store](https://chrome.google.com/webstore/category/extensions?hl=en). See below for a guide on how to install on Microsoft Edge or how to compile it for yourself. The extension currently works on Google Meet only for accounts that have the "Raise hand" feature enabled (Google Workspace). In a future version, we may add a custom solution to bring this feature to all accounts.
+You can download the latest version of the extension for free from the [Chrome Extensions Web Store](https://chrome.google.com/webstore/detail/rhth-%E2%80%93-raise-hand-to-rais/eklmnoflmkgilkjdiocjonfcpdkacplj?hl=en). See below for a guide on how to install on Microsoft Edge or how to compile it for yourself. The extension currently works on Google Meet only for accounts that have the "Raise hand" feature enabled (Google Workspace). In a future version, we may add a custom solution to bring this feature to all accounts.
 
 If you feel generous, please consider donating.
 
@@ -21,7 +21,7 @@ If you feel generous, please consider donating.
 
 ### Google Chrome
 
-Download the latest version of the extension from the [Chrome Extensions Web Store](https://chrome.google.com/webstore/category/extensions?hl=en).
+Download the latest version of the extension from the [Chrome Extensions Web Store](https://chrome.google.com/webstore/detail/rhth-%E2%80%93-raise-hand-to-rais/eklmnoflmkgilkjdiocjonfcpdkacplj?hl=en).
 
 ### Microsoft Edge
 
@@ -29,7 +29,7 @@ Download the latest version of the extension from the [Chrome Extensions Web Sto
 2. Select the Extensions option.
 3. Turn on the `Allow extensions from other stores` toggle switch.
 4. Click the `Allow` button.
-5. Download the latest version of the extension from the [Chrome Extensions Web Store](https://chrome.google.com/webstore/category/extensions?hl=en).
+5. Download the latest version of the extension from the [Chrome Extensions Web Store](https://chrome.google.com/webstore/detail/rhth-%E2%80%93-raise-hand-to-rais/eklmnoflmkgilkjdiocjonfcpdkacplj?hl=en).
 
 ### Compile the extension manually
 
